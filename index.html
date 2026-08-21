@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JavaScript Debugging Exercise</title>
+    <title>Event-Driven Webpage</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <main class="container">
+    <main id="pageContainer">
         <h1 id="mainHeading">Event-Driven Webpage</h1>
 
         <label for="nameInput">Enter your name:</label>
@@ -24,14 +24,12 @@
         <p id="typingMessage">You are typing:</p>
 
         <div class="button-group">
-            <button id="greetButton">Display Greeting</button>
-            <button id="colorButton">Change Background</button>
+            <button id="greetingButton">Display Greeting</button>
+            <button id="backgroundButton">Change Background</button>
             <button id="resetButton">Reset</button>
         </div>
 
-        <p id="resultMessage">
-            Enter your name and select an action.
-        </p>
+        <p id="messageArea"></p>
     </main>
 </body>
 </html>
