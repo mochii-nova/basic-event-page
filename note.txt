@@ -13,7 +13,6 @@
 <body>
     <main id="pageContainer">
         <h1 id="mainHeading">Event-Driven Webpage</h1>
-        <p>Aeron A. Supremido || 31 - ITE - 04 || August 21, 2026</p>
 
         <label for="nameInput">Enter your name:</label>
         <input
@@ -21,8 +20,6 @@
             id="nameInput"
             placeholder="Type your name"
         >
-
-        <p id="typingMessage">You are typing:</p>
 
         <div class="button-group">
             <button id="greetingButton">Display Greeting</button>
